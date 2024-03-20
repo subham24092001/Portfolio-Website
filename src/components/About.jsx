@@ -26,9 +26,9 @@ const About = () => {
           I am a Competitive Programmer. I have solved more than 1000+ problems on various coding platforms like
           Codeforces, CodeChef , CSES , GFG, LeetCode etc.
           <br /><br />
-          Apart from this , I am a Frontend developer. 
+          Apart from this , I am a Full Stack developer. 
           <br />
-          I have worked with many technologies like HTML / CSS / JS / ReactJs / TypeScript / TailwindCss.
+          I have worked with many technologies like HTML / CSS / JS / ReactJs / TypeScript / TailwindCss / Node Js/ Express Js / MongoDB / Redux.
           <br /><br />
           I have created some projects using these technologies like ChatApp, Portfolio website , Blog Website, Ecommerce Website, Music App.
         </p>
