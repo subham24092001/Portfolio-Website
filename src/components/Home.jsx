@@ -15,12 +15,12 @@ const Home = () => {
             className="text-4xl sm:text-5xl font-bold text-white
           s"
           >
-            I'm a Frontend Developer and a Competitive Programmer
+            I'm a Full Stack Developer and a Competitive Programmer
           </h2>
           <p className="text-pink-900 py-4 font-semibold">
             I have some months of experience building and designing projects. I
             Love to work on web application using technologies like
-            React,TypeScript, TailWind,Js. Apart From this , I am Specialist at
+            React,Next Js,Redux, TailWind, Next Js, Node Js,Express, MongoDB, Mongoose etc. Apart From this , I am Specialist at
             Codeforces and 3 * at Codechef. And I have solved more than 1000+ DSA
             problems on various coding plateforms.
           </p>

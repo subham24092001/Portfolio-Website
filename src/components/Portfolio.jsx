@@ -2,23 +2,29 @@ import React from "react";
 import blog from "../assets/portfolio/blog.jpeg";
 import chatapp from "../assets/portfolio/chatapp.jpeg";
 import Ecommerce from "../assets/portfolio/Ecommerce.png";
+import FileSharing from "../assets/portfolio/filesharing.png";
 
 const Portfolio = () => {
   const portfolio = [
     {
       id: 1,
+      src: Ecommerce,
+      href:"https://65faa402f697514481a023b2--admirable-platypus-d57ee8.netlify.app/",
+    },
+    {
+      id: 2,
+      src: FileSharing,
+      href:"https://6609382a079846a068d9c6d1--dreamy-capybara-b5ac55.netlify.app/"
+    },
+    {
+      id: 2,
       src: blog,
       href:"https://blogprj-f12ef.web.app",
     },
     {
-      id: 2,
+      id: 3,
       src: chatapp,
       href:"https://chatapp-88e0e.web.app",
-    },
-    {
-      id: 3,
-      src: Ecommerce,
-      href:"https://65faa402f697514481a023b2--admirable-platypus-d57ee8.netlify.app/",
     },
   ];
 
@@ -32,7 +38,7 @@ const Portfolio = () => {
       >
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
-            Portfolio
+            Projects
           </p>
           <p className="py-6">Check out some of work right here</p>
         </div>
