@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 **Portfolio Project README**
 
-## Deployment Link: https://ubiquitous-bombolone-bb6879.netlify.app/
+## Deployment Link: https://661bc118eef1b9595c34d1d1--capable-squirrel-e3bf22.netlify.app/
 ---
 
 ## Project Title: React.js and Tailwind CSS Portfolio
