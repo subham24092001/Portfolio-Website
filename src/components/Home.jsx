@@ -12,12 +12,12 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2
-            className="text-4xl sm:text-5xl font-bold text-white
+            className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-white via-green-300 to-indigo-300 text-transparent bg-clip-text
           s"
           >
             I'm a Full Stack Developer and a Competitive Programmer
           </h2>
-          <p className="text-pink-900 py-4 font-semibold">
+          <p className="text-pink-900 py-4 font-semibold bg-gradient-to-r from-white via-yellow-100 to-indigo-400 text-transparent bg-clip-text">
             I have some months of experience building and designing projects. I
             Love to work on web application using technologies like
             React,Next Js,Redux, TailWind, Next Js, Node Js,Express, MongoDB, Mongoose etc. Apart From this , I am Specialist at
@@ -41,7 +41,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className="bg-gradient-to-r from-violet-300 via-indigo-400 to-green-300">
           <img
             src={heroImage}
             alt="My Profile"

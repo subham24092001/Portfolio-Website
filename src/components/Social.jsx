@@ -10,7 +10,7 @@ const Social = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+          LinkedIn <FaLinkedin size={30} className="text-blue-400"/>
         </>
       ),
       href: "https://www.linkedin.com/in/singhsubham",
@@ -20,7 +20,7 @@ const Social = () => {
       id: 2,
       child: (
         <>
-          Github <FaGithub size={30} />
+          Github <FaGithub size={30} className="text-black"/>
         </>
       ),
       href: "https://github.com/subham24092001",
@@ -29,7 +29,7 @@ const Social = () => {
       id: 3,
       child: (
         <>
-          Email <HiOutlineMail size={30} />
+          Email <HiOutlineMail size={30} className="bg-gradient-to-r from-blue-500 via-red-500 to-green-600"/>
         </>
       ),
       href: "mailto:singhsubham62810@gmail.com",
@@ -38,7 +38,7 @@ const Social = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          Resume <BsFillPersonLinesFill size={30} className="text-green-500" />
         </>
       ),
       href: "https://drive.google.com/file/d/1nvI2IRReAt4l3A8BYEsgnMDS2ZQdbxMW/view?usp=drivesdk",

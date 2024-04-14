@@ -92,22 +92,22 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full md:h-screen pb-14"
+      className="bg-gradient-to-b from-gray-800 to-black w-full md:h-screen pb-48 pt-48"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
-        <div className="pb-8">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 inline">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white ">
+        <div className="pb-1">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 inline bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
             Technologies
           </p>
-          <p className="py-6">These are the technologies I've worked with.</p>
+          <p className="py-1 animate-pulse">These are the technologies I've worked with.</p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-6 px-12 sm:px-0">
           {lang.map(({ id, src, title, style }) => {
             return(
-            <div key={id} className={"shadow-md hover:scale-105 duration-500 py-2 rounded-lg" + " " + style}>
+            <div key={id} className={"shadow-md hover:scale-105 duration-500 py-2 rounded-lg bg-slate-600" + " " + style}>
               <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4">{title}</p>
+              <p className="mt-4 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-indigo-400 to-green-700">{title}</p>
             </div>
             )})}
         </div>

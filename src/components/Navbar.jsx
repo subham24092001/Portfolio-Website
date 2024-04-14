@@ -29,9 +29,9 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h20 px-4 text-white bg-black fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-gradient-to-r from-indigo-300 via-blue-500 to-green-400 bg-black fixed">
       <div>
-        <h1 className="text-4xl font-signature ml-2 py-1">Subham</h1>
+        <h1 className="text-4xl font-signature ml-2 py-1 bg-gradient-to-r from-red-400 via-pink-600 to-amber-300 text-transparent bg-clip-text animate-bounce">Subham</h1>
       </div>
 
       <ul className="hidden md:flex">
@@ -39,7 +39,7 @@ const Navbar = () => {
           return (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200" 
+              className="px-4 cursor-pointer capitalize font-medium bg-gradient-to-r from-gray-700 via-indigo-800 to-black text-transparent bg-clip-text hover:scale-105 duration-200" 
             >
             <Link to={link} smooth duration={500}>{link}</Link> 
             </li>
